@@ -1,0 +1,10 @@
+{
+  "name": "github-basics-demo",
+  "version": "1.0.0",
+  "description": "Small practice project for learning GitHub and CI.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/run-tests.js"
+  }
+}
