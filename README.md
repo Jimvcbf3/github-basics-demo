@@ -6,19 +6,23 @@ This is a tiny practice project for learning:
 - GitHub repositories
 - Pull requests
 - GitHub Actions CI
+- GitHub Pages CD
+- Manual approval before production deployment
 
 ## Run locally
 
 ```powershell
 npm start
 npm test
+npm run build
 ```
 
 ## Files to notice
 
 - `src/greet.js`: the code
 - `test/run-tests.js`: the tests
-- `.github/workflows/ci.yml`: the CI workflow
+- `scripts/build-site.js`: the build step
+- `.github/workflows/ci.yml`: the CI/CD workflow
 
 ## Suggested practice
 
@@ -28,3 +32,4 @@ npm test
 4. Push to GitHub.
 5. Open a pull request.
 6. Watch CI pass or fail.
+7. Push to `main` and watch GitHub Pages deploy.
