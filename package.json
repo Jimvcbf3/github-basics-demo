@@ -4,6 +4,7 @@
   "description": "Small practice project for learning GitHub and CI.",
   "type": "commonjs",
   "scripts": {
+    "build": "node scripts/build-site.js",
     "start": "node src/index.js",
     "test": "node test/run-tests.js"
   }
